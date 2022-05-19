@@ -2,7 +2,7 @@
 This project uses the NASA API, users can search for a specific picture by date. The information recieved from the API is filtered and displayed. 
 
 Demo:
-Live Site: [https://g-roid.github.io/NASA/]
+Live Site: https://g-roid.github.io/NASA/
 
 ![alt tag](https://g-roid.github.io/NASA/img/thumb-nail.JPG)
 
