@@ -35,7 +35,11 @@ function space() {
 }
 
 function setTitle(data) {
-    console.log('hello')
-    return data.title.split(':')[1]
-    
+    if (data.title.split(':').length == 1) {
+        console.log('short')
+        return data.title
+    } else {
+        return data.title.split(':')[1]
+    }
+       
 }
