@@ -1,7 +1,7 @@
 <h1 align="center">NASA DAILY PHOTO | <a href="https://g-roid.github.io/NASA/">Visit here!</a></h1>
 <div align="center">
   <a href='#'>
-	  <img src="https://g-roid.github.io/NASA/thumb-nail.JPG" width="100%" />
+	  <img src="nasa.gif" width="100%" />
   </a>
 </div>
 
