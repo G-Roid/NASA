@@ -20,12 +20,22 @@ function space() {
 
         if (data.media_type === 'video') {
             document.querySelector('img').src = data.thumbnail_url;
-            // document.querySelector('p').textContent = data.explanation
+            
+            
         } else {
             document.querySelector('img').src = data.url;
-            // document.querySelector('p').textContent = data.explanation
+            
+            
 
         }    
         document.querySelector('p').textContent = data.explanation
+        let title = setTitle(data)
+        document.querySelector('#title').textContent = title
     })
+}
+
+function setTitle(data) {
+    console.log('hello')
+    return data.title.split(':')[1]
+    
 }
